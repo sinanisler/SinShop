@@ -1,0 +1,1035 @@
+@charset "utf-8";
+/*
+	Coder  : Sinanisler.com
+	Design : Sinanisler.com 
+	Time   : 12.08.2011
+	
+	Theme Name: Sin Magaza
+	Theme URI: Sinanisler.com
+	Author: Sinan ISLER
+	Author URI: http://Sinanisler.com/
+	Description: 
+*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, a {
+margin: 0;	padding: 0;	border: 0;	outline: 0;	list-style:none;	text-decoration:none;font-family: Tahoma, Arial, Helvetica, sans-serif;}
+
+img,  .t.tipClass{ behavior: url(img/iepngfix.htc) }
+#altbilgiler { opacity:0.8; filter: alpha(opacity=80); /* fuck you IE6 */}
+* { outline:none;}
+body{
+	background: ;
+	}
+.kapsayamamaSorunu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.kapsayamamaSorunu {display: inline-block;}
+/*IE-mac de bu bolumu sakla \ */
+* html .kapsayamamaSorunu {height: 1%;}
+.kapsayamamaSorunu {display: block;}
+/* IE-mac bu bolumu saklam artik */
+.left{float:left;}
+.right{float:right;}
+.alignleft{float:left; padding-right:5px;}
+.alignright{float:right; padding-left:5px;}
+
+
+::selection {        background: #dbeec3; /* Safari */       }
+::-moz-selection {        background: #dbeec3; /* Firefox */ }
+
+
+
+
+
+#hepsi{ 
+	width:950px; 
+	height:auto; 
+	margin-left:auto; 
+	margin-right:auto; 
+	}
+#header{ 
+	width:950px; 
+	height:auto;
+	float:left;
+	margin-bottom:14px;
+	}
+#header-ust{ 
+	width:950px; 
+	height:41px;
+	float:left;
+	}
+#header-ust{ 
+	width:950px; 
+	height:41px;
+	float:left;
+	}
+#header-ust-menu{ 
+	width:auto; 
+	height:41px;
+	float:left;
+	line-height:41px;
+	color:#c6c6c6;
+	font-size:12px;
+	font-weight:bold;
+	}
+#header-ust-menu a{ 
+	color:#c6c6c6;
+	font-size:12px;
+	font-weight:bold;
+	}
+#header-ust-menu a:hover{ 
+	color:#8b8b8b;
+	}
+#header-ust-giris{ 
+	width:auto; 
+	height:41px;
+	float:right;
+	line-height:41px;
+	color:#c6c6c6;
+	font-size:12px;
+	font-weight:bold;
+	}
+#header-ust-giris a{ 
+	color:#c6c6c6;
+	font-size:12px;
+	font-weight:bold;
+	}
+#header-ust-giris a:hover{ 
+	color:#8b8b8b;
+	}
+	
+
+	
+.i1{ 
+	width:95px; 
+	height:19px;
+	float:left;
+	background:url(img/i1.png) no-repeat;
+	line-height:19px;
+	padding-left:8px;
+	line-height:19px;
+	color:white;
+	font-size:10px;
+	border:none;
+	margin-right:10px;
+	position:relative;
+	top:13px;
+	text-shadow: 1px 1px #9b9b9b;
+	}
+
+#giris{ 
+	position:relative;
+	top:13px;
+	}
+#giris:hover{
+	opacity:0.6;
+	}
+.giris-oncesi-gir{
+	width:auto; 
+	height:19px;
+	float:left;
+	}
+
+
+.giris-oncesi{
+	width:80px; 
+	height:19px;
+	float:left;
+	position:relative;
+	top:7px;
+	margin-left:7px;
+	}
+.giris-oncesi img:hover{
+	opacity:0.6;
+	}
+
+#header-alt{ 
+	width:950px; 
+	height:57px;
+	float:left;
+	}
+#header-logo{ 
+	width:190px; 
+	height:57px;
+	float:left;
+	}
+#header-ara{ 
+	width:740px; 
+	height:57px;
+	float:right;
+	}
+
+
+
+
+#sbc{ 
+	width:740px; 
+	height:57px;
+	float:right;
+	background:url(img/araarka.png) no-repeat;
+	position:relative;
+	top:3px;
+	}
+.multi-cat{ 
+	width:620px; 
+	height:26px;
+	float:left; 
+	background-position:-22px 16px  ;
+	border:none;
+	line-height:28px;
+	color:#b6b6b6;
+	font-size:17px;
+	position:relative;
+	top:16px;
+	left:22px;
+	margin-right:20px;
+	}
+#sbc-submit{ 
+	width:78px; 
+	height:29px;
+	float:left;
+	background:url(img/ara.png) no-repeat;
+	line-height:29px;
+	text-align:center;
+	border:none;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin-left:10px;
+	position:relative;
+	top:15px;
+	cursor:pointer;
+	}
+#sbc-submit:hover{ 
+	width:78px; 
+	height:29px;
+	float:left;
+	background:url(img/arah.png) no-repeat;
+	}
+
+
+.postform{ 
+	width:131px; 
+	height:20px;
+	float:left;
+	position:absolute;
+	right:100px;
+	top:20px;
+	background:url(img/kategori.png) no-repeat;
+	text-align: center;
+	line-height:20px;
+	border:none;
+	color:#555555;
+	font-size:12px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:3px;
+	padding-bottom:2px;
+	}
+
+
+
+
+
+#icerikler{ 
+	width:950px; 
+	height:auto;
+	float:left;
+	padding-bottom:15px;
+	}
+
+
+#sidebar{ 
+	width:188px; 
+	height:auto;
+	float:left;
+	}
+
+#sidebar .sidebar-kutu{ 
+	width:188px; 
+	height:auto;
+	float:left;
+	background:#f0f0f0;
+	font-size:12px;
+	border-radius:6px;
+	margin-bottom:15px;
+	}
+
+#sidebar .sidebar-baslik{ 
+	width:180px; 
+	height:26px;
+	float:left;
+	background:url(img/baslik.png) no-repeat;
+	line-height:26px;
+	padding-left:8px;
+	color:white;
+	text-shadow:1px 1px 1px #8d8d8d;
+	font-weight:bold;
+	font-size:14px;
+	}
+#sidebar .sidebar-icerik{ 
+	width:178px; 
+	height:auto;
+	float:left;
+	padding:5px;
+	}
+
+#sidebar .kategoriler a{
+	width:178px; 
+	height:auto;
+	float:left;
+	color:#848484;
+	text-shadow:-1px 1px white;
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+
+
+#sidebar .kategoriler a:hover{
+	color: #333333;
+	}
+
+
+
+
+
+
+
+
+#sidebar .sepet-kutu{ 
+	width:188px; 
+	height:auto;
+	float:left;
+	background:#daebd7;
+	font-size:12px;
+	border-radius:6px;
+	margin-bottom:15px;
+	}
+
+#sidebar .sepet-baslik{ 
+	width:180px; 
+	height:26px;
+	float:left;
+	background:url(img/baslik-sepet.png) no-repeat;
+	line-height:26px;
+	padding-left:8px;
+	color:white;
+	text-shadow:1px 1px 1px #8d8d8d;
+	font-weight:bold;
+	font-size:14px;
+	}
+#sidebar .sepet-icerik{ 
+	width:178px; 
+	height:auto;
+	float:left;
+	padding:5px;
+	}
+
+#sidebar .sepet-icerik table td{ 
+	font-size:10px !important;
+	}
+
+.dpsc_update_notification{
+	width:178px; 
+	height:auto;
+	float:left;
+	font-size:11px;
+	font-weight:normal;
+	text-align:center;
+	}
+.dpsc_update_notification strong{
+	font-size:11px;
+	font-weight:normal;
+	}
+
+.dpsc_error_msg {
+	color: #c05252;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-left: 5px;
+}
+
+
+
+#sidebar .sepet-icerik a{
+	width:178px; 
+	height:auto;
+	float:left;
+	color:#848484;
+	text-shadow:-1px 1px white;
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+
+
+.sepet-icerik .widgettitle{
+	display:none;
+	}
+
+table.shoppingcart th {
+	color: #6d8236 !important;
+}
+
+.emptycart a{
+	width:175px; 
+	height:18px;
+	float:left;
+	background:url(img/buton-kirmizi.png) no-repeat;
+	text-align:center;
+	line-height:18px;
+	color:white !important;
+	font-size:11px;
+	text-shadow:none !important;
+	font-weight:normal  !important;
+	margin-bottom:6px;
+	margin-top:6px;
+	}
+
+.emptycart a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	}
+
+.gocheckout a{
+	width:175px; 
+	height:18px;
+	float:left;
+	background:url(img/buton-yesil.png) no-repeat;
+	text-align:center;
+	line-height:18px;
+	color:white !important;
+	font-size:11px;
+	text-shadow:none !important;
+	font-weight:normal  !important;
+	margin-bottom:6px;
+	}
+
+.gocheckout a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	}
+
+
+
+#sidebar .eposta{
+	font-size:11px;
+	color:#848484;
+	}
+
+#sidebar .eposta p{
+	width:178px;
+	height:auto;
+	float:left;
+	margin-bottom:6px;
+	}
+
+
+
+#sidebar .iposta{
+	width:170px;
+	height:15px;
+	float:left;
+	margin-bottom:6px;
+	border:solid 1px #b9b9b9;
+	line-height:15px;
+	font-size:11px;
+	color:#848484;
+	padding-left:3px;
+
+	}
+
+#sidebar  .ikaydet{
+	width:56px;
+	height:18px;
+	float:left;
+	background:url(img/kaydet.png) no-repeat;
+	line-height:15px;
+	text-align:center;
+	color:white;
+	font-size:11px;
+	border:none;
+	cursor:pointer;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+#icerik{ 
+	width:740px; 
+	height:auto;
+	float:right;
+	position:relative;
+	}
+
+.urun{ 
+	width:162px; 
+	height:173px;
+	float:left;
+	position:relative;
+	background:url(img/urunarka.png) no-repeat;
+	margin:6px;
+	padding:5px;
+	}
+
+.urun h4{ 
+	width:162px; 
+	height:29px;
+	float:left;
+	overflow:hidden;
+	font-size:12px;
+	color:#2f2f2f;
+	line-height:14px;
+	}
+.urun h4 a{ 
+	color:#2f2f2f;
+	}
+
+.urun .wp-post-image{ 
+	}
+ 
+.urun .urun-resimm{ 
+	width:162px; 
+	height:126px;
+	float:left;
+	background:white;
+	text-align:center;
+	margin-bottom:3px;
+	}
+
+.urun .wp-post-image:hover{
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	}
+
+.urun .fiyat{ 
+	width:162px; 
+	height:auto;
+	float:left;
+	overflow:hidden;
+	font-size:14px;
+	color:#7b9931;
+	font-weight:bold;
+	}
+
+
+
+
+.icerik-baslik{ 
+	width:740px; 
+	height:auto;
+	float:left;
+	position:relative;
+	margin-bottom:10px;
+	}
+
+.icerik-page{ 
+	width:740px; 
+	height:auto;
+	float:left;
+	position:relative;
+	margin-bottom:10px;
+	font-size:12px;
+	color:#333333;
+	}
+.icerik-page p{ 
+	margin-bottom:10px;
+	line-height:15px;
+	}
+.icerik-baslik h1{ 
+	width:740px; 
+	height:auto;
+	float:left;
+	color:#1f1f1f;
+	font-size:21px;
+	font-weight:normal;
+	}
+
+.icerik-kategori{ 
+	width:740px; 
+	height:auto;
+	float:left;
+	color:#555555;
+	font-size:13px;
+	} 
+
+.resim-fiyat{ 
+	width:740px; 
+	height:auto;
+	float:left;
+	margin-bottom:10px;
+	}
+
+
+.icerik-resim{ 
+	width:462px; 
+	height:315px;
+	float:left;
+	border:solid 1px #b6b6b6;
+	text-align:center;
+	}
+
+
+.resim-fiyat .dpsc-shopping-cart , .resim-fiyat  .dpsc_price , .resim-fiyat   .dpsc_image_section{
+	display:none;
+	
+	}
+
+
+
+.icerik-fiyat-sag{ 
+	width:262px; 
+	height:315px;
+	float:left;
+	position:relative;
+	left:8px;
+	}
+
+.icerik-fiyat-sag .icerik-fiyat{ 
+	width:255px; 
+	height:27px;
+	float:left;
+	background:#f4f4f4;
+	line-height:27px;
+	font-size:17px;
+	color:#848485;
+	padding-left:7px;
+	margin-bottom:10px;
+	border-radius:4px;
+	}
+
+
+.icerik-fiyat-sag .icerik-baslik{ 
+	width:255px; 
+	height:27px;
+	float:left;
+	background:#f4f4f4;
+	line-height:27px;
+	font-size:17px;
+	color:#848485;
+	padding-left:7px;
+	margin-bottom:10px;
+	border-radius:4px;
+	}
+
+.r1{ 
+	color:#567701;
+	}
+
+
+.icerik-fiyat-sag .icerik-ozellikler{ 
+	width:262px; 
+	height:195px;
+	float:left;
+	font-size:13px;
+	color:#89898a;
+	overflow:hidden;
+	}
+
+.icerik-fiyat-sag .icerik-ozellikler li{ 
+	width:240px; 
+	height:18px;
+	float:left;
+	font-size:13px;
+	color:#89898a;
+	padding-left:22px;
+	background:url(img/ozellik.png) no-repeat;
+	margin-bottom:4px;
+	overflow:hidden;
+	}
+
+
+
+.icerik-fiyat-sag  .dpsc_submit_button{ 
+	width:262px; 
+	height:44pxpx;
+	float:left;
+	font-size:13px;
+	color:#fff;
+	line-height:44px;
+	text-align:center;
+	background:url(img/sepeteekle.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:18px;
+	}
+
+
+
+
+
+
+#dpsc_make_payment {
+	width: 175px;
+	height: 18px;
+	float: left;
+	background: url(img/buton-yesil.png) no-repeat;
+	text-align: center;
+	line-height: 18px;
+	color: white !important;
+	font-size: 12px;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	margin-bottom: 6px;
+	border:none;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.indirimli-urun .urun{ 
+	width:178px; 
+	height:40px;
+	float:left;
+	position:relative;
+	background:none;
+	border-bottom: dashed 1px #CCCCCC;
+	overflow:hidden;
+	padding-top:2px;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+	}
+ 
+ .indirimli-urun .urun a{
+	 color: #666666;
+	 font-weight:bold;
+	}
+  .indirimli-urun .urun a:hover{
+	 color: #000;
+	}
+.indirimli-urun  .urun-resimcik{ 
+	width:40px; 
+	height:40px;
+	float:left;
+	margin-right:3px;
+	}
+
+.indirimli-urun  .urun .wp-post-image:hover{
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+.dpsc-table-checkout {
+	width: 95%;
+	height: auto;
+	float: left;
+	margin-bottom: 10px;
+	border: 1px solid #CCC;
+	padding: 4px;
+}
+
+.dpsc-table-checkout td {
+	padding: 3px;
+	border: 1px solid #CCC;
+}
+
+#dpsc_contact_information input {
+	width: 300px;
+	height: 21px;
+	display: block;
+	border: 1px solid #CCC;
+}
+
+
+#dpsc_contact_information select {
+	width: 300px;
+	height: 21px;
+	display: block;
+	border: 1px solid #CCC;
+}
+
+
+
+
+.tablar{ 
+	width:735px; 
+	height:auto;
+	float:left;
+	}
+
+
+.tablar-menu{ 
+	width:720px; 
+	height:35px;
+	float:left;
+	background:url(img/tabbaslik.png) no-repeat;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:14px;
+	color:white;
+	line-height:35px;
+	padding-left:15px;
+	}
+
+
+.tablar-menu span{ 
+	width:auto; 
+	height:35px;
+	float:left;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	cursor:pointer;
+	}
+
+.tablar-menu span:hover{
+	background: #b6b6b6;
+	}
+
+
+
+.aktif{
+	background: #b6b6b6;
+	}
+
+.pasif{
+	background:url(img/tabbaslik.png) center top no-repeat;
+	}
+
+
+
+
+.tablar-ic{ 
+	width:723px; 
+	height:auto;
+	float:left;
+	border-left:solid 1px #b6b6b6;
+	border-right:solid 1px #b6b6b6;
+	padding:5px;
+	font-size:12px;
+	color:#333333;
+	line-height:16px;
+	}
+
+.tablar-ic a{ 
+	color:#333333;
+	font-weight:bold;
+	}
+
+
+.tablar-ic p{
+	margin-bottom:7px;
+	}
+
+.tablar-ic li{
+	list-style:disc;
+	list-style-position:inside;
+	}
+
+.tablar-alt{ 
+	width:735px; 
+	height:10px;
+	float:left;
+	background:url(img/alt.png) bottom no-repeat;
+	}
+
+
+
+
+
+
+.urunYorum{ 
+	width:708px; 
+	height:auto;
+	float:left;
+	font-size:12px;
+	color:#434343;
+	padding:10px;
+	padding-left:15px;
+	}
+
+.urunYorum a{ 
+	color:#434343
+	}
+
+.urunYorum *{
+	list-style:none;
+	}
+
+.commentlist li{ 
+	width:693px; 
+	height:auto;
+	float:left;
+	padding:5px;
+	background:#f2f2f2;
+	border:solid 1px #b6b6b6;
+	margin-bottom:10px;
+	border-radius:10px;
+	}
+
+
+
+.commentlist li{
+	list-style:none;
+	list-style-position:none;
+	}
+
+
+.urunYorum .fn{
+	font-weight:bold;
+	float:left;
+	}
+
+.urunYorum .commentmetadata{
+	font-weight:bold;
+	float:right;
+	}
+	
+.urunYorum  .comment-body{ 
+	width:693px; 
+	height:auto;
+	float:left;
+	margin-top:5px;
+	}
+
+.urunYorum  .form-allowed-tags , .comment-form-url{
+	display:none;
+	}
+
+
+#commentform{ 
+	width:703px; 
+	height:auto;
+	float:left;
+	color:white;
+	position:relative;
+	}
+
+
+#commentform p{ 
+	width:703px; 
+	height:auto;
+	float:left;
+	color: #999999;
+	position:relative;
+	margin-bottom:0;
+	}
+
+.comment-form-comment{ 
+	color:white;
+	}
+
+.urunYorum  #comment{ 
+	width:542px; 
+	height:90px;
+	float:left;
+	background:url(img/yorumtextarea.png) no-repeat;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:5px;
+	}
+
+
+.urunYorum  #email  , .urunYorum #author{ 
+	width:187px; 
+	height:31px;
+	float:left;
+	background:url(img/i2.png) no-repeat;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:31px;
+	}
+	
+[for="comment"]{
+	display:none;
+	}
+	
+
+.urunYorum #submit{ 
+	width:136px; 
+	height:100px;
+	float:left;
+	background:url(img/yorumbuton.png) no-repeat;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	color:white;
+	position: absolute;
+	right:1px;
+	bottom:0px;
+	font-size:18px;
+	cursor:pointer;
+	}
+
+.logged-in-as{
+color:#999999;
+	}
+
+
+
+
+
+
+
+
+
+#footer{ 
+	width:950px; 
+	height:auto;
+	float:left;
+	padding-top:4px;
+	border-top:solid 4px #f0f0f0;
+	color:#6e6e6e;
+	font-size:11px;
+	padding-bottom:15px;
+	}
+
+#footer a{ 
+	width:auto; 
+	height:auto;
+	float:left;
+	margin-left:10px;
+	color:#6e6e6e;
+	}
+
+
+#footer a:hover{
+	text-decoration:underline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

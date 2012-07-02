@@ -1,0 +1,1 @@
+Sinshop opensource theme for wordpress. It will work with Dukapress e-commerce plugin.
