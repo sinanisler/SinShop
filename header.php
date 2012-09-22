@@ -11,8 +11,12 @@
 
 
 <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.png" /> 
+
+<?php if($options['seo_aciklama']) {      ?>
 <meta name="description" content=" <?php  echo $options['seo_aciklama'];  ?> " /> 
 <meta name="keywords" content="<?php echo $options['seo_kelimeler'];  ?>" />
+<?php    }  ?>
+
  
 <link rel="canonical" href="<?php bloginfo('home'); ?>" /> 
 
